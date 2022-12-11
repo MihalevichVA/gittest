@@ -1,0 +1,68 @@
+.list{
+  margin: 10vh 15vw
+}
+ 
+.counters{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-todo{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 4vh;
+}
+
+.input-todo input{
+  width: 100%
+}
+
+.todo{
+  display: flex;
+  align-items: center;
+  margin-top: 3vh;
+  border: 2px solid black;
+  height: 5vh;
+}
+
+.todo span {
+  margin-left: 1vw;
+}
+
+.done {
+  display: flex;
+  margin-top: 3vh;
+  align-items: center;
+  background-color: rgb(218, 220, 222);
+  border: 2px solid black;
+  height: 5vh;
+}
+
+.done span {
+  margin-left: 1vw;
+}
+
+.hide {
+  display: none;
+}
+
+.delete {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left:auto;
+   height: 100%;
+   font-weight: bald;
+   border:none;
+  }
+
+  .save{
+    color:rgb(134, 134, 130);
+    font-weight: bold;
+    border: 1px solid white;
+  }
+  
+  .save:not(:disabled){
+    background-color: black;
+  }
